@@ -1,0 +1,61 @@
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 16px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  color: #666;
+}
+
+.value {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.status-won {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.status-lost {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.status-playing {
+  color: #2196f3;
+}
+
+.new-game-button {
+  padding: 10px 20px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.new-game-button:hover {
+  background: #5568d3;
+}
+
+.new-game-button:active {
+  background: #4457c2;
+}
+

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mine-sweeper": {
+      "command": "node",
+      "args": ["dist/mcp-server.js"],
+      "cwd": "."
+    }
+  }
+}
+
