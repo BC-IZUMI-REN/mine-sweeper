@@ -102,11 +102,13 @@ npm run setup-cursor
   "mcpServers": {
     "mine-sweeper": {
       "command": "node",
-      "args": ["C:\\Users\\bc0109695\\projects\\mine-sweeper\\dist\\mcp-server.js"]
+      "args": ["<プロジェクトのパス>\\dist\\mcp-server.js"]
     }
   }
 }
 ```
+
+**注意:** `<プロジェクトのパス>` を実際のプロジェクトのパスに置き換えてください。例: `C:\\Users\\YourName\\projects\\mine-sweeper`
 
 ### AIでプレイする方法
 
